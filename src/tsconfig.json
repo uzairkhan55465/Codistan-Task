@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "jsx": "react",
+    //   "allowImportingTsExtensions": true
+    },
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "references": [
+      {
+        "path": "./tsconfig.json"
+      }
+    ],
+    "ts-node": {
+      "compilerOptions": {
+        "module": "commonjs"
+      }
+    }
+  }
